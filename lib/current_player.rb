@@ -21,4 +21,4 @@ def current_player(board)
 end
 
 board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-puts turn_count(board1)
+puts current_player(board1)
