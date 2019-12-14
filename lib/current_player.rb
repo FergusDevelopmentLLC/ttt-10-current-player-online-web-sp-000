@@ -8,8 +8,8 @@ def turn_count(board)
   count
 end
 
-board1 = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
-puts turn_count(board1)
+#board1 = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
+#puts turn_count(board1)
  
 def current_player(board)
   if turn_count(board1).even? 
@@ -18,3 +18,6 @@ def current_player(board)
     "O"
   end
 end
+
+board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts turn_count(board1)
