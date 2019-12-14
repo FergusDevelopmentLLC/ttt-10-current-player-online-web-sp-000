@@ -1,3 +1,5 @@
+board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def turn_count(board)
   count = 0
   board.each { |position|
@@ -9,9 +11,6 @@ def turn_count(board)
   count
 end
 
-#board1 = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
-#puts turn_count(board1)
- 
 def current_player(board)
   if turn_count(board1).even? 
     "X"
@@ -20,5 +19,5 @@ def current_player(board)
   end
 end
 
-board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 puts current_player(board1)
