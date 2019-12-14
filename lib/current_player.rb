@@ -12,7 +12,7 @@ board1 = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
 puts turn_count(board1)
  
 def current_player(board)
-  if turn_count(board1).odd? 
+  if turn_count(board1).even? 
     "X"
   else
     "O"
