@@ -1,5 +1,3 @@
-board = ["X", "O", " ", " ", " ", " ", " ", " ", " "]
-
 def turn_count(board)
   count = 0
   board.each { |position|
@@ -18,6 +16,3 @@ def current_player(board)
     "O"
   end
 end
-
-
-puts current_player(board)
