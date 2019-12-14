@@ -20,4 +20,4 @@ def current_player(board)
 end
 
 
-puts current_player(board1)
+puts current_player(board)
