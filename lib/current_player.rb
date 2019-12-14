@@ -1,6 +1,6 @@
 def turn_count(board)
-  names.each { |item|
-    puts item
+  board.each { |space|
+    puts space
   }
 end
 
