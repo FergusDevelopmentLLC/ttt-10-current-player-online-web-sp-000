@@ -11,6 +11,6 @@ end
 board1 = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
 puts turn_count(board1)
  
-def current_player
-  
+def current_player(board)
+  if turn_count(board1)
 end
